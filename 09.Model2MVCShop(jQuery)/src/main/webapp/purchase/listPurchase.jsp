@@ -27,11 +27,17 @@
 			self.location = "/purchase/getPurchase?tranNo="+tranNo
 		});
 		
+		$( ".ct_list_pop td:nth-child(3)" ).css("color" , "red");
+		$("h6").css("color" , "red");
+		
 		
 		$ (".ct_list_pop td:nth-child(3)").on("click", function(){
 			
 			self.location = "/user/getUser?userId="+$(this).text().trim();
 		});
+		
+		$( ".ct_list_pop td:nth-child(5)" ).css("color" , "blue");
+		$("h4").css("color" , "blue");
 		
 		$ (".ct_list_pop td:contains('물건도착')").on("click", function(){
 			
@@ -74,9 +80,15 @@
 	<tr>
 		<td class="ct_list_b" width="100">No</td>
 		<td class="ct_line02"></td>
-		<td class="ct_list_b" width="150">회원ID</td>
+		<td class="ct_list_b" width="150">
+			회원ID
+			<h6>(회원ID click:상세정보)</h6>
+		</td>
 		<td class="ct_line02"></td>
-		<td class="ct_list_b" width="150">상품명</td>
+		<td class="ct_list_b" width="150">
+			상품명
+			<h4>(상품명 click:상세정보)</h4>
+		</td>
 		<td class="ct_line02"></td>
 		<td class="ct_list_b">전화번호</td>
 		<td class="ct_line02"></td>

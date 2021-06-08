@@ -37,8 +37,8 @@
 			self.location = "/product/getProduct?prodNo="+prodNo+"&menu="+menu;
 		});
 		
-		$( ".ct_list_pop td:nth-child(3)" ).css("color" , "red");
-		$("h7").css("color" , "red");
+		$( ".ct_list_pop td:nth-child(3)" ).css("color" , "blue");
+		$("h7").css("color" , "blue");
 				
 		
 		$( ".ct_list_pop td:nth-child(9)").on("click", function(){
