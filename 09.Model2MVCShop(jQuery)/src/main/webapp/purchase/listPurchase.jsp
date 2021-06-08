@@ -76,7 +76,7 @@
 		<td class="ct_line02"></td>
 		<td class="ct_list_b" width="150">회원ID</td>
 		<td class="ct_line02"></td>
-		<td class="ct_list_b" width="150">회원명</td>
+		<td class="ct_list_b" width="150">상품명</td>
 		<td class="ct_line02"></td>
 		<td class="ct_list_b">전화번호</td>
 		<td class="ct_line02"></td>
@@ -103,7 +103,7 @@
 			${purchase.buyer.userId}
 		</td>
 		<td></td>
-		<td align="left">${purchase.receiverName}</td>
+		<td align="left">${purchase.purchaseProd.prodName}</td>
 		<td></td>
 		<td align="left">${purchase.receiverPhone}</td>
 		<td></td>
